@@ -1,0 +1,224 @@
+body{
+    background-color: rgb(247,247,247);
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#form
+{
+    border: 1.5px solid black;
+    width: 400px;
+    margin: 85px auto 30px;
+    border-radius: 10px;
+    border-color: rgb(240, 237, 237);
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(212, 210, 210) ;
+    text-align: center;
+    /* box-shadow: 10px -10px 10px rgb(212, 210, 210) ; */
+}
+@media all and (max-width:400px)
+{
+    .form{
+        width: 100vw;
+        margin-left: -10px;
+        text-align: center;
+    }
+}
+.logo 
+{
+display: flex;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight:900;
+font-size: 22px;
+color: black;
+}
+.logo img
+{
+    margin-right: 5px;
+}
+.logo a
+{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.logo a:hover{
+    color: rgb(90, 80, 80);
+}
+.logo{
+    
+    
+    width: fit-content;
+    margin-left: 10px;
+    font-weight: 490;
+    margin-top: 5px;
+    letter-spacing: .3px;
+}
+#logo1{
+    /* border: 1px solid black; */
+    font-size: 45px;
+    margin-top: 10px;
+    text-align: center;
+}
+.s
+{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 13px;
+    margin-bottom: 50px;
+}
+#e,#p
+{   
+    /* border: 1px solid black; */
+    text-align: center;
+    
+}
+#e>input,#p>input{
+    border: 1px solid;
+    width: 330px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 13px;
+    border-color:rgb(210, 200, 200);
+    border-radius: 4px;
+}
+.c
+{
+    /* border: 1px solid; */
+    text-align: center;
+    /* margin-top: px; */
+    margin-bottom: 35px;
+}
+#f
+{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 35px;
+}
+#r
+{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 35px;
+}
+#f>a,#r>a
+{
+    text-decoration: none;
+    color: rgb(0, 102, 204);
+    font-size: 13px;
+}
+#f>a:hover,#r>a:hover{
+    text-decoration: underline;
+}
+.down
+{   
+    /* border: 1px solid ; */
+    margin-top: 203px;
+    display: flex;
+    font-size: 11px;
+    width: 100%;
+    color: rgb(131, 127, 127);
+    background-color: rgb(240, 240, 242);
+
+}
+.down a{
+    text-decoration: none;
+    color: rgb(102, 102, 107);
+    
+}
+.down div{
+    flex:1;
+    /* border: 1px solid ; */
+    text-align: center;
+    height: 50px;
+    padding-top: 30px;
+    width: 100vw;
+}
+#but
+{
+    border: 1px solid;
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 13px;
+    border-color:rgb(210, 200, 200);
+    border-radius: 5px;
+    background-color: rgb(27, 27, 125);
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#error1,#error2
+{
+    margin-top: -9px;
+    font-size: 12px;
+    /* border: 1px solid black; */
+    width: fit-content;
+    margin-left: 29px;
+    margin-bottom: 4px;
+    color: rgb(242, 62, 42);
+}
+#error1,#error2{
+    /* border: 1px solid; */
+    /* height: 8px; */
+    color: black;
+    font-size: 12px;
+    text-align: left;
+    color: rgb(226, 95, 47);
+}
+#e.error > input,#p.error >input
+{   
+    border-color:rgb(226, 95, 47);
+    
+}
+#e.success > input,#p.success >input
+{   
+    border-color:rgb(99, 232, 10);
+    
+}
+#page
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#a
+{
+    color: rgb(27, 27, 125);
+    text-decoration: none;
+}
+#but.success
+{
+    background-color: rgb(20, 151, 8);
+    color: white;
+}
+#whole.success
+{   
+    margin-top: 30pxx;
+    border: 2px solid rgb(212, 209, 209);
+    text-align: left;
+    width: 330px;
+    margin-left: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#page
+{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#page7.success
+{
+   border: 1px solid black;
+   width: fit-content;
+   text-decoration: none;
+   margin-top: 15px;
+   margin-left: 130px;
+   padding: 10px;
+   border-radius: 5px;
+   background-color: rgb(27, 27, 125);
+}
+#page7 a{
+    text-decoration: none;
+    color: white;
+}

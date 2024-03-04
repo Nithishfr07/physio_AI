@@ -1,0 +1,216 @@
+:root
+{
+    --red:rgb(69, 255, 181);
+    --green: crimson;
+    --yellow: rgb(255, 231, 52);
+    --white: whitesmoke;
+}
+body{
+    background-color: black;
+}
+body,h2
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing
+{
+    background-image:url(images/physioing2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header h2 i,nav i
+{
+    margin-right: .5em;
+}
+header a
+{
+    text-decoration: none;
+    color: var(--yellow);
+    min-width: 120px;
+}
+header
+{
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+#logo
+{
+    flex: 3;
+    font-size: 1.25em;
+    min-width: 260px;
+}
+nav{
+    flex:2;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex:1;
+}
+nav a:hover
+{
+    color: var(--green);
+}
+.maintext
+{   
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    height: 50vh;
+    justify-content: center;
+
+}
+.tag1
+{
+    color: var(--red);
+    font-size: 2em;
+    font-weight: bolder;
+}
+.tag2{
+    color: var(--yellow);
+}
+.tag3{
+    color: var(--white);
+}
+.maintext div 
+{
+    margin-top: .75em;
+}
+button
+{
+    width:20vw;
+    margin-top: 2em;
+    border-radius: 2px;
+    padding:.7em;
+    background-color: var(--green);
+    color: var(--white);
+    border-color: #53BF9D;
+    border: 1px;
+}
+.menu
+{
+    display: grid;
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: whitesmoke;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+#menuheading,#locheading
+{   
+    font-size: 2.5em;
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+
+}
+.menu th{
+    color: var(--green);
+    font-size: 1.8em;
+}
+table
+{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1)
+{
+    justify-self:left ;
+    flex:1
+}
+.menu td:nth-child(2)
+{
+    justify-self: right;
+}
+.maincourse
+{
+    grid-row: span 2;
+}
+.locations
+{   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: var(--white);
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+@media (min-width:1420px)
+{   .locations{
+    display: flex;
+    justify-content: center;}
+    .velachery
+    {
+        margin-left:335px ;
+        margin-right: 335px;
+    }
+}
+.locations h2{
+    color: var(--green);
+    margin-bottom: .8em;
+}
+.loctions div{
+    flex:1;
+    padding: 1em;
+    min-width: 220px;
+}
+#copy
+{
+    padding: .8em;
+    background-color: rgb(83, 81, 81);
+    color: white;
+}
+#copy>i {
+padding-left: 1em;
+}
+
+
+main
+{
+    /* border: 1px solid white; */
+    height: 700px;
+}
+#cent
+{   
+    margin: 0px auto;
+    width: 80%;
+    
+    /* border: 1px solid; */
+    height: 100%;
+}
+#form
+{
+    /* border: 1px solid; */
+    
+}
+
+#cent
+{
+    background-color: rgba(255, 255, 255, 0.764);
+    padding: 20px;
+}
+
+#form label
+{
+    font-size: 20px;
+}
+#form input
+{
+    font-size: 20px;
+}
+
+#kannan
+{
+    height: auto;
+    /* border: 1px solid ; */
+    background-color: white;
+}
